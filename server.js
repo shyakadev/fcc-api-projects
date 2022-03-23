@@ -35,7 +35,7 @@ app.get("/api/:date?", (req, res) => {
   const date = validTime(time);
   res.json(
     date.isValid()
-      ? { unix: date.getTime(), utc: date.toUTCString() }
+      ? { unix: parseInt(date.getTime()), utc: date.toUTCString() }
       : { error: "Invalid Date" }
   );
 });
