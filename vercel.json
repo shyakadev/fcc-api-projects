@@ -1,6 +1,6 @@
  
 {
-    "version": 1,
+    "version": 2,
     "name": "fcc-api-projects",
     "builds": [
       { "src": "server.js", "use": "@vercel/node" }
