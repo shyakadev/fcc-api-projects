@@ -6,7 +6,7 @@
 	"author": "Shyaka Tresor",
 	"scripts": {
 		"dev": "nodemon server.js",
-		"start": "node server.js",
+		"build": "node server.js",
 		"lint": "eslint server.js",
 		"lint:fix": "npm run lint -- --fix",
 		"prettier": "npx prettier server.js --check",

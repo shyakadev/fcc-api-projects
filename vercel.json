@@ -1,0 +1,11 @@
+ 
+{
+    "version": 1,
+    "name": "fcc-api-projects",
+    "builds": [
+      { "src": "server.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/server.js" }
+    ]
+  }
