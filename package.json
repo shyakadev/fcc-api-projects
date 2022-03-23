@@ -5,7 +5,8 @@
 	"main": "server.js",
 	"author": "Shyaka Tresor",
 	"scripts": {
-		"start": "nodemon server.js",
+		"dev": "nodemon server.js",
+		"start": "node server.js",
 		"lint": "eslint server.js",
 		"lint:fix": "npm run lint -- --fix",
 		"prettier": "npx prettier server.js --check",
